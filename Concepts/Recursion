@@ -1,0 +1,24 @@
+-> Recursion is a function call itself until base condition/terminating condition
+-> if no base condition it will through stack overflow error
+-> divide big problem into simillar small probles and call the same problem as many times as needed
+-> for ex
+      5! = 5 * 4!
+      6! = 6 * 5!
+      7! = 7 * 6!
+
+Pseudocode :
+    function(n)
+    {
+    if n= 1 return 1 [base condition]
+    return function(n-1) # get close to base function [recursive case]
+    }
+    function(5)
+
+# Recursive leap of faith -> How to use Recursion
+
+1. Understand the problem | ex -> 321123
+2. Identify sub problem | print 2112
+3. Trust/faith | we have to trust this will solve the the smaller version of this problem
+4. link 1 & 2 | n = 3 o?p 3 2112 3 (seq(n-1)) closer to base condition
+5. Base Condition |always require base case for this ex for 0 return
+
