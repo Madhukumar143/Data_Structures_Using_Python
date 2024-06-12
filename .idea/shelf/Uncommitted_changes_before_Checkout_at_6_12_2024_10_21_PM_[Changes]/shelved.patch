@@ -1,0 +1,211 @@
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_6_1_2024_6_41_PM_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_6_1_2024_6_41_PM_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_6_1_2024_6_41_PM_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_6_1_2024_6_41_PM_[Changes]/shelved.patch	(revision 38f35edb601879feb0a42581c44a78c5cbb7a0c5)
++++ /dev/null	(revision 38f35edb601879feb0a42581c44a78c5cbb7a0c5)
+@@ -1,38 +0,0 @@
+-Index: Coding_Exercises/Sorted squared array.py
+-===================================================================
+-diff --git a/Coding_Exercises/Sorted squared array.py b/Coding_Exercises/Sorted squared array.py
+-deleted file mode 100644
+---- a/Coding_Exercises/Sorted squared array.py	(revision 58c86fd79c1a0cb31b1dfda29aca5b7d317b4c9a)
+-+++ /dev/null	(revision 58c86fd79c1a0cb31b1dfda29aca5b7d317b4c9a)
+-@@ -1,30 +0,0 @@
+--''' Question ->
+--You are given an array of Integers in which each subsequent value is not less than the previous value.
+--Write a function that takes this array as an input and returns a new array with the squares of each number
+--sorted in ascending order.'''
+--
+--
+--def sorted_squared(array):
+--    # write code here.make sure to return desired array
+--    '''op=[0] * len(array)
+--    for i in range(0,len(array)):
+--        op[i] = array[i] * array[i]
+--    op.sort()'''
+--    # two pionter technique
+--    i, j = 0, len(array) - 1
+--    op = [0] * len(array)
+--
+--    for k in reversed(range(len(array))):
+--        if array[i] ** 2 > array[j] ** 2:
+--            op[k] = array[i] ** 2
+--            i += 1
+--        else:
+--            op[k] = array[j] ** 2
+--            j -= 1
+--
+--    return op
+--
+--
+--a = [-4, -4, -3, -1, 0, 1, 3, 3, 4]
+--b = sorted_squared(a)
+--print(b)
+-\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch b/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch	(revision 38f35edb601879feb0a42581c44a78c5cbb7a0c5)
++++ /dev/null	(revision 38f35edb601879feb0a42581c44a78c5cbb7a0c5)
+@@ -1,38 +0,0 @@
+-Index: Coding_Exercises/Sorted squared array.py
+-===================================================================
+-diff --git a/Coding_Exercises/Sorted squared array.py b/Coding_Exercises/Sorted squared array.py
+-deleted file mode 100644
+---- a/Coding_Exercises/Sorted squared array.py	(revision 0207acdaf382d88ae894c047aeeaa549ea31a2b3)
+-+++ /dev/null	(revision 0207acdaf382d88ae894c047aeeaa549ea31a2b3)
+-@@ -1,30 +0,0 @@
+--''' Question ->
+--You are given an array of Integers in which each subsequent value is not less than the previous value.
+--Write a function that takes this array as an input and returns a new array with the squares of each number
+--sorted in ascending order.'''
+--
+--
+--def sorted_squared(array):
+--    # write code here.make sure to return desired array
+--    '''op=[0] * len(array)
+--    for i in range(0,len(array)):
+--        op[i] = array[i] * array[i]
+--    op.sort()'''
+--    # two pionter technique
+--    i, j = 0, len(array) - 1
+--    op = [0] * len(array)
+--
+--    for k in reversed(range(len(array))):
+--        if array[i] ** 2 > array[j] ** 2:
+--            op[k] = array[i] ** 2
+--            i += 1
+--        else:
+--            op[k] = array[j] ** 2
+--            j -= 1
+--
+--    return op
+--
+--
+--a = [-4, -4, -3, -1, 0, 1, 3, 3, 4]
+--b = sorted_squared(a)
+--print(b)
+-\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"49b30d10-6f84-41dd-826a-a71dd1011a9a\" name=\"Changes\" comment=\"Arrays completed now\">\r\n      <change afterPath=\"$PROJECT_DIR$/Coding_Exercises/Recursion/Factorial.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Coding_Exercises/Recursion/Sequence.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Concepts/Recursion\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Concepts/Primary.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Concepts/Practice.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 1\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2gmhUJoT3NiERYT6Pi6HNc5OgNL\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Python.Factorial.executor\": \"Run\",\r\n    \"Python.Primary.executor\": \"Run\",\r\n    \"Python.Sequence.executor\": \"Run\",\r\n    \"Python.practice.executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"Data__Structures\",\r\n    \"last_opened_file_path\": \"D:/Automation/Data_Structures_Using_Python\",\r\n    \"settings.editor.selected.configurable\": \"project.propVCSSupport.DirectoryMappings\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\" selected=\"Python.Factorial\">\r\n    <configuration name=\"Factorial\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Data_Structures\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Coding_Exercises/Recursion\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Coding_Exercises/Recursion/Factorial.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Practice\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Data_Structures\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Concepts\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"D:\\Automation\\Data_Structures_Using_Python\\Concepts\\Practice.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Sequence\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Data_Structures\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Coding_Exercises/Recursion\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Coding_Exercises/Recursion/Sequence.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"practice\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Data_Structures\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Coding_Exercises\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Coding_Exercises/practice.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python.Factorial\" />\r\n        <item itemvalue=\"Python.Sequence\" />\r\n        <item itemvalue=\"Python.practice\" />\r\n        <item itemvalue=\"Python.Practice\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-09665e90c3a7-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15026.15\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"49b30d10-6f84-41dd-826a-a71dd1011a9a\" name=\"Changes\" comment=\"\" />\r\n      <created>1716308675452</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1716308675452</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"test commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1716380928451</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1716380928451</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"test commit two\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1716381581044</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1716381581044</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Arrays completed last\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1717247209108</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1717247209108</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Arrays completed now\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1717247608546</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1717247608546</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"5\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"CUSTOM_BOOLEAN_PROPERTIES\">\r\n                <map>\r\n                  <entry key=\"Show.Git.Branches\" value=\"true\" />\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"test commit\" />\r\n    <MESSAGE value=\"test commit two\" />\r\n    <MESSAGE value=\"Arrays completed last\" />\r\n    <MESSAGE value=\"Arrays completed now\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Arrays completed now\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 38f35edb601879feb0a42581c44a78c5cbb7a0c5)
++++ b/.idea/workspace.xml	(date 1718211027213)
+@@ -4,14 +4,10 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="49b30d10-6f84-41dd-826a-a71dd1011a9a" name="Changes" comment="Arrays completed now">
+-      <change afterPath="$PROJECT_DIR$/Coding_Exercises/Recursion/Factorial.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Coding_Exercises/Recursion/Sequence.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Concepts/Recursion" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
++    <list default="true" id="49b30d10-6f84-41dd-826a-a71dd1011a9a" name="Changes" comment="Recursion Kth symbol problem">
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_1_2024_6_41_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_1_2024_6_41_PM__Changes_.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Concepts/Primary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Concepts/Practice.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -28,7 +24,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="master" />
++        <entry key="$PROJECT_DIR$" value="Data_Structures" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -45,12 +41,13 @@
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
+     "Python.Factorial.executor": "Run",
++    "Python.Kth_Symbol.executor": "Run",
+     "Python.Primary.executor": "Run",
+     "Python.Sequence.executor": "Run",
+     "Python.practice.executor": "Run",
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "git-widget-placeholder": "Data__Structures",
++    "git-widget-placeholder": "Dev",
+     "last_opened_file_path": "D:/Automation/Data_Structures_Using_Python",
+     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+   }
+@@ -78,6 +75,28 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
++    <configuration name="Kth_Symbol" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="Data_Structures" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Coding_Exercises/Recursion" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Coding_Exercises/Recursion/Kth_Symbol.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
+     <configuration name="Practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="Data_Structures" />
+       <option name="ENV_FILES" value="" />
+@@ -146,10 +165,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Python.Factorial" />
+         <item itemvalue="Python.Sequence" />
+         <item itemvalue="Python.practice" />
+         <item itemvalue="Python.Practice" />
++        <item itemvalue="Python.Kth_Symbol" />
++        <item itemvalue="Python.Factorial" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -201,7 +221,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1717247608546</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="Recursion Kth symbol problem">
++      <option name="closed" value="true" />
++      <created>1718210544724</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1718210544724</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -226,6 +254,7 @@
+     <MESSAGE value="test commit two" />
+     <MESSAGE value="Arrays completed last" />
+     <MESSAGE value="Arrays completed now" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Arrays completed now" />
++    <MESSAGE value="Recursion Kth symbol problem" />
++    <option name="LAST_COMMIT_MESSAGE" value="Recursion Kth symbol problem" />
+   </component>
+ </project>
+\ No newline at end of file
