@@ -1,0 +1,12 @@
+1. Algorithmic approach to find solution to problems that involve many possible paths
+2. here solutions are build step by step
+3. it is a controled recursion (here we abondon paths if it does not return solution)
+
+How Back tracking work:
+    1. Explore one option
+    2. keep building the solution with recursion
+        1. if violates conditions back track and explore new paths
+        2. if valid solution return it
+
+In back tracking we make changes in place :
+        a,b,c  -> c,b,a -> b,c,a -> b,a,c (just swaping)
